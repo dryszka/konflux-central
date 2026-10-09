@@ -94,3 +94,8 @@
   sync-repositories:
     - name: "red-hat-data-services/feast"
       targetFilePath: ".github/renovate.json"
+
+- renovate-config: "renovate/autox-renovate-distribution.json"
+  sync-repositories:
+    - name: "red-hat-data-services/pipelines-components"
+      targetFilePath: ".github/renovate.json"
